@@ -2,8 +2,6 @@
 
 *A micro library providing Crystal objects with Publish-Subscribe capabilities*
 
-[![Build Status](https://travis-ci.org/krisleech/evented.png?branch=master)](https://travis-ci.org/krisleech/evented)
-
 * Decouple core business logic from external concerns in Hexagonal style architectures
 * Use as an alternative to callbacks and Observers
 * Connect objects based on context without permanence
@@ -16,7 +14,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   evented:
-    github: krisleech/evented
+    github: grkek/evented
 ```
 
 ## Usage
@@ -96,4 +94,5 @@ ls ./**/*.cr | entr crystal spec
 
 ## Contributors
 
-- [Kris Leech](https://github.com/krisleech) - creator, maintainer
+- [Kris Leech](https://github.com/krisleech) - original creator
+- [Giorgi Kavrelishvili](https://github.com/grkek) - maintainer

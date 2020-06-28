@@ -1,5 +1,5 @@
 require "yaml"
 
 module Evented
-  VERSION = (YAML.load(File.read("./shard.yml")) as Hash)["version"]
+  VERSION = {{ `shards version #{__DIR__}`.chomp.stringify }}
 end
